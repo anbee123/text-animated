@@ -12,7 +12,7 @@ body
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #94baf4;
+    background: #c4d2eb;
     overflow: hidden;
 }
 .container
@@ -41,7 +41,7 @@ body
 .container .box span
 {
   position: absolute;
-  color: rgb(240, 138, 191);  
+  color: rgb(195, 140, 254);  
   font-size: 3.5em;
   white-space: nowrap;
   text-transform: uppercase;
@@ -56,10 +56,10 @@ body
 .container .box span i:nth-child(1)
 {
     font-style: initial;
-    color: #b5d15f;
+    color: #4aabec;
 }
 .container .box span i:nth-child(2)
 {
     font-style: initial;
-    color: #4372df;
+    color: #dd99be;
 }
