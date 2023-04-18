@@ -63,3 +63,22 @@ body
     font-style: initial;
     color: #dd99be;
 }
+
+@media only screen and (min-device-width: 428px) and (max-device-width: 926px) and (-webkit-device-pixel-ratio: 3) {
+    /* Increase font size for better readability on smaller screen */
+    .container .box span {
+      font-size: 4.5em;
+    }
+    
+    /* Adjust padding for better spacing on smaller screen */
+    .container .box span {
+      padding: 0 5px;
+    }
+    
+    /* Adjust gradient for better visibility on smaller screen */
+    .container .box span {
+      background: linear-gradient(90deg, transparent, rgba(0,0,0,0.7), transparent);
+    }
+    .container .box span {
+        size: 20px; }
+  }
